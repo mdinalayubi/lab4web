@@ -9,7 +9,7 @@
 3. Ikuti langkah-langkah praktikum yang akan dijelaskan berikutnya.
 4. Lakukan validasi dokumen html dengan mengakses http://validator.w3.org
 ## Langkah-langkah Praktikum
-* Persiapan membuat dokumen HTML dengan nama file lab4_box.html seperti berikut.
+* Persiapan membuat dokumen HTML dengan nama file ```lab4_box.html``` seperti berikut.
 ``` python
 <!DOCTYPE html>
 <html lang="en">
