@@ -5,7 +5,7 @@
 
 ## Instruksi Praktikum
 1. Persiapkan text editor misalnya VSCode.
-2. Buat folder baru dengan nama Lab4Web
+2. Buat folder baru dengan nama ```Lab4Web```
 3. Ikuti langkah-langkah praktikum yang akan dijelaskan berikutnya.
 4. Lakukan validasi dokumen html dengan mengakses http://validator.w3.org
 ## Langkah-langkah Praktikum
@@ -24,8 +24,8 @@
     </header>
 </body>
 ```
-## Membuat Box Element
-* Kemudian tambahkan kode untuk membuat box element dengan tag div seperti berikut.
+## Membuat ```Box Element```
+* Kemudian tambahkan kode untuk membuat ```box element``` dengan tag div seperti berikut.
 ```python
 <section>
     <div class="div1">Div 1</div>
@@ -33,8 +33,8 @@
     <div class="div3">Div 3</div>
 </section>
 ```
-## CSS Float Property
-* Selanjutnya tambahkan deklarasi CSS pada head untuk membuat float element, seperti berikut.
+## ```CSS Float Property```
+* Selanjutnya tambahkan deklarasi CSS pada head untuk membuat ```float element```, seperti berikut.
 ```python
 <style>
     div {
@@ -53,9 +53,9 @@
 </style>
 </html>
 ```
-## Mengatur Clearfix Element
-* Clearfix digunakan untuk mengatur element setelah float element. Property clear digunakan untuk mengaturnya.
-* Tambahkan element div lainnya seteleah div3 seperti berikut.
+## Mengatur ```Clearfix Element```
+* ```Clearfix``` digunakan untuk mengatur element setelah ```float element```. ```Property clear``` digunakan untuk mengaturnya.
+* Tambahkan ```element div``` lainnya seteleah div3 seperti berikut.
 ```python
 <section>
     <div class="div1">Div 1</div>
@@ -64,7 +64,7 @@
     <div class="div4">Div 4</div>
 </section>
 ```
-* Kemudian atur property clear pada CSS, seperti berikut.
+* Kemudian atur ```property clear``` pada CSS, seperti berikut.
 ```python
 <style>
     div {
@@ -189,7 +189,7 @@ nav a:hover {
 ## Hasil Output
 ![gambar 4](foto/tugas4.png)
 ## Membuat Hero Panel.
-* Selanjutnya membuat hero panel. Tambahkan kode HTML dan CSS seperti berikut.
+* Selanjutnya membuat ```hero panel```. Tambahkan kode HTML dan CSS seperti berikut.
 ```python
 <section id="hero">
     <h1>Hello World!</h1>
@@ -219,8 +219,8 @@ nav a:hover {
 ```
 ## Hasil Output
 ![gambar 5](foto/tugas5.png)
-## Mengatur Layout Main dan Sidebar
-* Selanjutnya mengatur main content dan sidebar, tambahkan CSS float.
+## Mengatur ```Layout Main dan Sidebar.```
+* Selanjutnya mengatur ```main content dan sidebar```, tambahkan ```CSS float```.
 ```python
 /* main content */
 #wrapper {
@@ -232,7 +232,7 @@ nav a:hover {
     padding: 20px;
 }
 ```
-## Membuat Sidebar Widget
+## Membuat ```Sidebar Widget```
 * Kemudian selanjutnya menambahkan element lain dalam sidebar.
 ```python
  <aside id="sidebar"><div class="widget-box">
@@ -253,7 +253,7 @@ nav a:hover {
         </div>
     </aside>
 ```
-* Kemudian tambahkan CSS.
+* Kemudian tambahkan ```CSS```.
 ```python
 /* widget */
 .widget-box {
@@ -300,7 +300,7 @@ footer {
 ```
 ## Hasil Output
 ![gambar 7](foto/tugas7.png)
-## Menambahkan Elemen lainnya pada Main Content
+## Menambahkan Elemen lainnya pada ```Main Content```.
 ```python
 <section id="main">
         <div class="row">
@@ -327,7 +327,7 @@ footer {
             </div>
         </div>
 ```
-## Kemudian tambahkan CSS.
+## Kemudian tambahkan ```CSS```.
 ```python
 /* box */
 .box {
@@ -373,8 +373,8 @@ box img {
 ```
 ## Hasil Output
 ![gambar 8](foto/tugas8.png)
-## Menambahkan Content Artikel
-* Selanjutnya membuat content artikel. Tambahkan HTML berikut pada main content.
+## Menambahkan ```Content Artikel```.
+* Selanjutnya membuat ```content artikel```. Tambahkan HTML berikut pada ```main content```.
 ```python
 </div>
         <hr class="divider" />
@@ -391,7 +391,7 @@ box img {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum loremelit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla,vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nuncpretium ac.</p>
         </section>
 ```
-* Kemudian tambahkan CSS.
+* Kemudian tambahkan ```CSS```.
 ```python
 .divider {
     border:0;
@@ -420,9 +420,9 @@ box img {
 ## Hasil Output
 ![gambar 9](foto/tugas9.png)
 ## Pertanyaan dan Tugas
-1. Tambahkan Layout untuk menu About
+1. Tambahkan Layout untuk ```menu About```.
 * => buat single layout yang berisi deskripsi, portfolio, dll
-2. Tambahkan layout untuk menu Contact
+2. Tambahkan layout untuk ```menu Contact```.
 * => yang berisi form isian: nama, email, message, dll
 ```python
 <!DOCTYPE html>
